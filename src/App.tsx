@@ -25,7 +25,7 @@ function App() {
         className="flex items-center justify-center bg-black w-full h-screen"
       >
         <img
-          src="/og-image.png"
+          src="/og_mg.png"
           alt="Loader"
           className="w-auto h-[50%] animate-blink"
           style={{ objectFit: "contain" }}
