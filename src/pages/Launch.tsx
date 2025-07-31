@@ -80,8 +80,7 @@ interface GitHubRepoData {
 
 export default function Launch() {
   const [stats, setStats] = useState<GitHubRepoData | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+
 
   useEffect(() => {
     const fetchStats = async () => {
@@ -95,9 +94,9 @@ export default function Launch() {
         const data: GitHubRepoData = await response.json();
         setStats(data);
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'Failed to fetch stats');
+        // error handling removed (no error state)
       } finally {
-        setLoading(false);
+        // loading state removed
       }
     };
 
