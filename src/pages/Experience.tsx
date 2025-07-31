@@ -223,7 +223,7 @@ export default function Experience() {
     {
       _id: "1",
       organization: "Mock Company",
-      logo: "https://via.placeholder.com/64x64?text=MC",
+      logo: "/vite.svg",
       website: "https://mockcompany.com",
       tags: ["React", "TypeScript", "Frontend"],
       roles: [
@@ -246,7 +246,7 @@ export default function Experience() {
     {
       _id: "2",
       organization: "Sample Tech",
-      logo: "https://via.placeholder.com/64x64?text=ST",
+      logo: "/vite.svg",
       website: "https://sampletech.com",
       tags: ["Node.js", "Express", "Backend"],
       roles: [

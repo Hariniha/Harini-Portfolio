@@ -150,7 +150,7 @@ export default function Projects() {
             _id: "1",
             title: "Food Delivery App",
             description: "A personal portfolio website built with React, Vite, and Tailwind CSS.",
-            // image: foodDeliveryImg,
+            image: "/vite.svg",
             tags: ['HTML5', 'CSS','JS'],
             sourceUrl: "https://github.com/Hariniha/fooddelivery-website",
             liveUrl: "https://fooddelivery-website-8718.vercel.app"
@@ -159,7 +159,7 @@ export default function Projects() {
             _id: "2",
             title: "Recipe Finder App",
             description: "A full-stack e-commerce application with shopping cart and payment integration.",
-            // image: recipeFinderImg,
+            image: "/vite.svg",
             tags: ['HTML','CSS','JS'],
             sourceUrl: "https://github.com/Hariniha/recipe__finder",
             liveUrl: "https://recipe-finder-n9bl.vercel.app/"
@@ -168,7 +168,7 @@ export default function Projects() {
             _id: "3",
             title: "To-Do-List",
             description: "A real-time chat application using Socket.io and Node.js.",
-            image: "https://via.placeholder.com/400x200?text=Chat+App",
+            image: "/vite.svg",
             tags: ["HTML","JS"],
             sourceUrl: "https://github.com/Hariniha/ToDo-List",
             liveUrl: "https://to-do-list-ruddy-zeta-38.vercel.app"
@@ -177,7 +177,7 @@ export default function Projects() {
             _id: "4",
             title: "Blog Platform",
             description: "A blogging platform with markdown support and user authentication.",
-            image: "https://via.placeholder.com/400x200?text=Blog+Platform",
+            image: "/vite.svg",
             tags: ["Next.js", "Prisma", "Auth", "Markdown", "Fullstack"],
             sourceUrl: "https://github.com/example/blog",
             liveUrl: "https://blog.example.com"
@@ -186,7 +186,7 @@ export default function Projects() {
             _id: "5",
             title: "Task Manager",
             description: "A productivity app to manage daily tasks and todos.",
-            image: "https://via.placeholder.com/400x200?text=Task+Manager",
+            image: "/vite.svg",
             tags: ["React", "TypeScript", "Hooks", "Productivity"],
             sourceUrl: "https://github.com/example/taskmanager",
             liveUrl: "https://taskmanager.example.com"

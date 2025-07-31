@@ -159,8 +159,10 @@ function DockItem({ children, className }: DockItemProps) {
       role='button'
       aria-haspopup='true'
     >
-      {Children.map(children, (child) =>
-        cloneElement(child as React.ReactElement)
+      {Children.map(children, (child, idx) =>
+        cloneElement(child as React.ReactElement, {
+          key: (child as React.ReactElement).key ?? idx
+        })
       )}
     </motion.div>
   );
@@ -168,14 +170,14 @@ function DockItem({ children, className }: DockItemProps) {
 
 function DockLabel({ children, className, ...rest }: DockLabelProps) {
   const restProps = rest as Record<string, unknown>;
-  const isHovered = restProps['isHovered'] as MotionValue<number>;
+  const isHovered = restProps['isHovered'] as MotionValue<number> | undefined;
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    const unsubscribe = isHovered.on('change', (latest) => {
+    if (!isHovered || typeof isHovered.on !== 'function') return;
+    const unsubscribe = isHovered.on('change', (latest: number) => {
       setIsVisible(latest === 1);
     });
-
     return () => unsubscribe();
   }, [isHovered]);
 
@@ -203,9 +205,9 @@ function DockLabel({ children, className, ...rest }: DockLabelProps) {
 
 function DockIcon({ children, className, ...rest }: DockIconProps) {
   const restProps = rest as Record<string, unknown>;
-  const width = restProps['width'] as MotionValue<number>;
-
-  const widthTransform = useTransform(width, (val) => val / 2);
+  const width = restProps['width'] as MotionValue<number> | undefined;
+  // Only use useTransform if width is defined, else fallback to a default width
+  const widthTransform = width ? useTransform(width, (val) => val / 2) : 40;
 
   return (
     <motion.div
