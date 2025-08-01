@@ -38,28 +38,19 @@
   
   /* Add gradient overlays for fade effect */
   .parallax::before,
-  .parallax::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100px;
-    height: 100%;
-    z-index: 2;
-    pointer-events: none;
-    background: linear-gradient(to right, #000000 0%, rgba(18, 18, 18, 0.2) 100%);
-  }
-
   .parallax::after {
     content: '';
     position: absolute;
     top: 0;
-    right: 0;
     width: 100px;
     height: 100%;
     z-index: 2;
     pointer-events: none;
-    background: linear-gradient(to left, #000000 0%, rgba(18, 18, 18, 0.2) 100%);
+  }
+  
+  .parallax::before {
+    left: 0;
+    background: linear-gradient(to right, #000000 0%, rgba(18, 18, 18, 0.2) 100%);
   }
   
   .parallax::after {
@@ -80,9 +71,7 @@
       padding: 0.75rem 1.5rem;
     }
     
-    .parallax::before {
-      width: 150px;
-    }
+    .parallax::before,
     .parallax::after {
       width: 150px;
     }
