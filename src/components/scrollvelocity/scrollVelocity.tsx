@@ -70,7 +70,7 @@ export const ScrollVelocity: React.FC<ScrollVelocityProps> = ({
   damping = 50,
   stiffness = 400,
   numCopies = 6,
-  velocityMapping = { input: [0, 1000], output: [0, 5] },
+  velocityMapping = { input: [0, 1000], output: [0, 0.5] },
   parallaxClassName = "parallax",
   scrollerClassName = "scroller",
   parallaxStyle,
