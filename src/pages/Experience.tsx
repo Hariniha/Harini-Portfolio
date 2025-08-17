@@ -222,40 +222,17 @@ export default function Experience() {
   const [experiences] = useState<any[]>([
     {
       _id: "1",
-      organization: "Mock Company",
+      organization: "DBOT Technology",
       logo: "/vite.svg",
-      website: "https://mockcompany.com",
-      tags: ["React", "TypeScript", "Frontend"],
+      website: "",
+      tags: ["React.JS","Three.JS"],
       roles: [
         {
           role: "Frontend Developer",
-          description: "Worked on React and TypeScript projects, building user interfaces and reusable components.",
-          startDate: "Jan 2023",
-          endDate: "Jan 2024",
-          website: "https://mockcompany.com/careers"
-        },
-        {
-          role: "Intern",
-          description: "Assisted in frontend bug fixes and documentation.",
-          startDate: "Jul 2022",
-          endDate: "Dec 2022",
-          website: "https://mockcompany.com/interns"
-        }
-      ]
-    },
-    {
-      _id: "2",
-      organization: "Sample Tech",
-      logo: "/vite.svg",
-      website: "https://sampletech.com",
-      tags: ["Node.js", "Express", "Backend"],
-      roles: [
-        {
-          role: "Backend Developer",
-          description: "Developed REST APIs and managed MongoDB databases.",
-          startDate: "Feb 2022",
-          endDate: "Dec 2022",
-          website: "https://sampletech.com/jobs"
+          description: "Worked on React and Three.JS projects, building user interfaces and reusable components.",
+          startDate: "Jan 2025",
+          endDate: "Feb 2025",
+          website: ""
         }
       ]
     }

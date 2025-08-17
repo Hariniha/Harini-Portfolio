@@ -110,7 +110,7 @@ const About = () => {
                 </div>
 
              <ScrollVelocity
-    texts={['HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'TailwindCSS', 'NextJS', 'ReactJS', 'ViteJS', 'AnimeJS', 'Framer-Motion', 'Canva', 'Figma', 'Adobe Xd', 'Solidity', 'Web3JS', 'Vercel', 'Digital Ocean', 'Shadcn', 'GSAP', 'NodeJS', 'ExpressJS', 'MongoDB', 'React Router', 'Redux']}
+    texts={['HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'TailwindCSS', 'NextJS', 'ReactJS', 'ViteJS', 'Canva', 'Figma',  'Solidity', 'Web3JS', 'Vercel', 'Shadcn',  'NodeJS', 'ExpressJS', 'MongoDB', 'React Router', 'Redux']}
     velocity={1} // Decreased from 100 to 30 for slower movement
     className="custom-scroll-text wendy-font text-base md:text-2xl bg-[#121212] w-fit rounded-3xl p-3 md:p-6 border border-white/[0.15] shadow-inner hover:shadow-amber-500/50 transition-all duration-300 m-4"
 />
@@ -123,12 +123,11 @@ const About = () => {
         containerClassName="text-white/80"
         textClassName="text-lg md:text-2xl font-extralight bricolage-font italic text-center"
     >
-        I bridge the gap between blockchain innovation and user experience. By crafting intuitive interfaces for decentralized applications, making the complex world of Web3 accessible to everyone.
-    </ScrollReveal>
+I’m a full-stack Web2 developer exploring the world of Web3. I focus on building intuitive interfaces that bridge blockchain innovation with user-friendly experiences, making decentralized applications more accessible    </ScrollReveal>
 </div>
 
 <ScrollVelocity
-    texts={['HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'TailwindCSS', 'NextJS', 'ReactJS', 'ViteJS', 'AnimeJS', 'Framer-Motion', 'Canva', 'Figma', 'Adobe Xd', 'Solidity', 'Web3JS', 'Vercel', 'Digital Ocean', 'Shadcn', 'GSAP', 'NodeJS', 'ExpressJS', 'MongoDB', 'React Router', 'Redux']}
+    texts={['HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'TailwindCSS', 'NextJS', 'ReactJS', 'ViteJS',  'Canva', 'Figma',  'Solidity', 'Web3JS', 'Vercel', 'Shadcn','NodeJS', 'ExpressJS', 'MongoDB', 'React Router', 'Redux']}
     velocity={-1} // Decreased from -100 to -30 for slower movement
     className="custom-scroll-text text-base md:text-2xl wendy-font bg-[#121212] w-fit rounded-3xl p-3 md:p-6 border border-white/[0.15] shadow-inner hover:shadow-amber-500/50 transition-all duration-300 m-4"
 />

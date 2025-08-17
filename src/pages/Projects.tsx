@@ -149,8 +149,8 @@ export default function Projects() {
         {
             _id: "1",
             title: "Food Delivery App",
-            description: "A personal portfolio website built with React, Vite, and Tailwind CSS.",
-            image: "/vite.svg",
+            description: "Frontend of a food delivery app with interactive menus, cart, and seamless ordering experience.",
+            image: "/fd.png",
             tags: ['HTML5', 'CSS','JS'],
             sourceUrl: "https://github.com/Hariniha/fooddelivery-website",
             liveUrl: "https://fooddelivery-website-8718.vercel.app"
@@ -158,38 +158,65 @@ export default function Projects() {
         {
             _id: "2",
             title: "Recipe Finder App",
-            description: "A full-stack e-commerce application with shopping cart and payment integration.",
-            image: "/vite.svg",
+            description: "Recipe Finder app using an API to search and display recipes with instructions and images.",
+            image: "/rf.png",
             tags: ['HTML','CSS','JS'],
             sourceUrl: "https://github.com/Hariniha/recipe__finder",
             liveUrl: "https://recipe-finder-n9bl.vercel.app/"
         },
         {
             _id: "3",
+            title: "Digital Safety App",
+            description: "Real-time digital safety app with secure messaging, file management, and password protection.",
+            image: "/ds.png",
+            tags: ["MERN Stack"],
+            sourceUrl: "https://github.com/Hariniha/Security-App-Frontend",
+            liveUrl: "https://security-app-frontend.vercel.app/"
+        },
+        {
+           _id: "4",
             title: "To-Do-List",
-            description: "A real-time chat application using Socket.io and Node.js.",
-            image: "/vite.svg",
+            description: "Interactive To-Do List app to manage tasks with add, update, and delete features.",
+            image: "/td.png",
             tags: ["HTML","JS"],
             sourceUrl: "https://github.com/Hariniha/ToDo-List",
             liveUrl: "https://to-do-list-ruddy-zeta-38.vercel.app"
         },
         {
-            _id: "4",
-            title: "Blog Platform",
-            description: "A blogging platform with markdown support and user authentication.",
-            image: "/vite.svg",
-            tags: ["Next.js", "Prisma", "Auth", "Markdown", "Fullstack"],
-            sourceUrl: "https://github.com/example/blog",
-            liveUrl: "https://blog.example.com"
+            _id: "5",
+            title: "Treasure Hunt",
+            description: "Treasure Hunt game where users complete levels to collect map pieces and unlock a final reward. productivity app to manage daily tasks and todos.",
+            image: "/th.png",
+            tags: ["React", "Solidity"],
+            sourceUrl: "https://github.com/Hariniha/TreasureHunt",
+            liveUrl: "https://treasurehunt4.vercel.app/"
         },
         {
-            _id: "5",
-            title: "Task Manager",
-            description: "A productivity app to manage daily tasks and todos.",
-            image: "/vite.svg",
-            tags: ["React", "TypeScript", "Hooks", "Productivity"],
-            sourceUrl: "https://github.com/example/taskmanager",
-            liveUrl: "https://taskmanager.example.com"
+            _id: "6",
+            title: "FIR",
+            description: "FIR app to file and track cases conveniently using a smartphone.",
+            image: "/fir.png",
+            tags: ["React", "Solidity"],
+            sourceUrl: "https://github.com/Hariniha/FIR",
+            liveUrl: "https://fir-livid.vercel.app/"
+        },
+          {
+            _id: "7",
+            title: "Saas Landing page",
+            description: "A Simple Saas Landing Page Using React and Typescript",
+            image: "/saas.png",
+            tags: ["React", "Typescript"],
+            sourceUrl: "https://github.com/Hariniha/Saas--Landing-Page",
+            liveUrl: "https://saas-landing-page-self-tau.vercel.app/"
+        },
+          {
+            _id: "8",
+            title: "Stop Watch",
+            description: "A Simple StopWatch Using React and Typescript",
+            image: "/sw.png",
+            tags: ["React", "Typescript"],
+            sourceUrl: "https://github.com/Hariniha/Stop--Watch",
+            liveUrl: "https://stop-watch-xi-red.vercel.app/"
         }
     ]);
     const [loading] = useState(false);
