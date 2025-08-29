@@ -285,7 +285,7 @@ export default function Launch() {
             <span className="bg-black border border-white/[0.15] md:text-xl rounded-xl w-fit hover:border-white/30 hover:scale-105 text-white p-2 shadow-xs flexx justify-center items-center group-hover:bg-amber-500/10 transition-all group-hover:scale-105 opacity-80">
               <GoNorthStar />
             </span>
-            <a href="/Harini_developer.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/HariniPriya-Developer.pdf" target="_blank" rel="noopener noreferrer">
               <Button className=" ">
                 Resume
               </Button>
@@ -299,7 +299,7 @@ export default function Launch() {
                   className="flex items-center gap-1 text-white/60 hover:text-white transition-colors"
                 >
                   <FaStar className="text-yellow-400" />
-                  <span>{stats.stargazers_count}</span>
+                  <span></span>
                 </a>
                 <span className="text-white/60">|</span>
                 <a
